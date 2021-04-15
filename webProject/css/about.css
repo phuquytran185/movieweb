@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    padding: 0 500px;
+    background: url(bg2.jpg) !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.box h3{
+    margin: 0 0 20px;
+    font-size: 30px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.box p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    text-transform: uppercase;
+}
